@@ -60,7 +60,8 @@ vim.opt.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', lead = '·', nbsp = '␣' }
 
 -- Set tabsize to 2
-vim.opt.tabstop = 4
+vim.opt.tabstop = 8
+vim.opt.shiftwidth = 4
 
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = 'split'
